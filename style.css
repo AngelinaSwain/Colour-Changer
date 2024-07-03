@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #eea47fff;
+}
+h1 {
+  font-size: 3rem;
+}
+button {
+  background-color: #adefd1ff;
+  font-size: 1.5rem;
+  color: #00203fff;
+  border-radius: 35px;
+  padding: 1rem 1.5rem;
+}
+button:hover {
+  background-color: #00203fff;
+  color: #adefd1ff;
+}
